@@ -1,3 +1,7 @@
 [build]
-command = "streamlit run chat.py"
-publish = "streamlit_app/"
+  command = "streamlit run chat.py"
+  publish = "streamlit_app"
+
+[dev]
+  command = "streamlit run chat.py"
+  publish = "streamlit_app"
